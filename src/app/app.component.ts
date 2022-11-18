@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'crpto-checker-yt';
+  selectedCurrency:string="INR";
+
+  constructor(){}
+
+  sendCurrency(event:string){
+    console.log(event);
+  }
+
 }
